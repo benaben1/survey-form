@@ -1,0 +1,67 @@
+* {
+  background-color: rgb(231, 224, 224);
+}
+h2 {
+  width: 500px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.invalid {
+  border-color: none;
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+.error-hint {
+  color: rgb(221, 48, 48);
+  margin-bottom: 30px;
+}
+.sl {
+  margin-bottom: 100px;
+}
+.radio {
+  margin-bottom: 30px;
+  font: size 20px;
+}
+button {
+  padding: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10px;
+  margin-left: 320px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+button:hover {
+  background-color: yellow;
+  color: black;
+  border: black;
+}
+.option {
+  font-size: 15px;
+}
+div.tans {
+  margin: 300px;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+input {
+  font-size: 16px;
+}
+textarea {
+  width: 700px;
+  height: 100px;
+  font-size: 20px;
+}
+option {
+  font-size: 15px;
+}
+

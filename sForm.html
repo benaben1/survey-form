@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="sForm.css"/>
+    <title>Form Validation</title>
+   <script src="sForm.js"></script>
+   
+</head>
+<body>
+            <header>
+        
+            <h2>SURVEY ABOUT CURRENT EVENTS AND SPIRITUALITY</h2>
+    </header > 
+    <section>
+ </section>
+        <form name="form" onsubmit="validate()" method="post" >
+            <div>
+            <label>What is Your name?</label><br>
+         <input  type="text" name="names" class="invalid" placeholder="Write your full name"><br>
+         <div class="error-hint ">
+             *required
+            </div>
+        </div>
+            <div>
+         <label> How old are you?</label><br>
+         <input type="text"   name="age" class="invalid" placeholder="Write your age" ><br>
+         <div class="error-hint ">*required</div>
+        </div>
+        <div class="radio">
+               <label>What is Your gender?</label><br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+        </div>
+              <div>
+               <label>What is your view about the ongoing current catastrophies in the world e.g covid19 ?</label><br>
+               <textarea  name="one"></textarea><br>
+         <div class="error-hint ">*required</div>
+            </div>  
+                <div>
+                <label>Are the ongoing catastrophies in the world by any chance spoken of in the holy books?</label><br>
+                <textarea  name="two"></textarea><br>
+                <div class="error-hint ">*required</div>
+                </div>
+                <div>
+            <label>According to your view, Do you think spirituality affects the current catastrophies in any way?</label><br>
+                    <textarea  name="three"></textarea><br>
+                    <div class="error-hint ">*required</div>
+                </div>
+                        <div class="sl">
+                            <label>What is your religion?</label><br>
+                        <select name="religion" class="option">
+                        <option value="Catholic">Catholic</option>
+                        <option value="Adventist">Adventist</option>
+                        <option value="Protestant">Protestant</option>
+        <option value="Moselim">Moselim</option>
+                        </select>
+                    </div>
+                    <div>
+            <button>Submit form</button>
+                    </div>
+           </form> 
+        </div>
+
+</body>
+</html>
